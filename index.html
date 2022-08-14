@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sorting</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="assets/icon.png">
+    </head>
+    <body>
+        <div class="top">
+            <div class="logo"></div>
+            <div class="sortings">
+                <div class="sort">Bubble Sort</div>
+                <div class="sort">Selection Sort</div>
+                <div class="sort">Insertion Sort</div>
+                <div class="sort">Merge Sort</div>
+                <div class="sort">Quick Sort (WIP)</div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="cols"></div>
+            <div class="menu">
+                <div class="execute">Sort columns</div>
+                <div class="reset">Reset columns</div>
+                <select class="speed" onchange="changeSpeed(event);">
+                    <option>25%</option>
+                    <option>50%</option>
+                    <option>100%</option>
+                    <option>200%</option>
+                    <option>400%</option>
+                </select>
+                <div class="download">Download log</div>
+                <img src="assets/play.png" class="pp">
+            </div>
+            <div class="code">Waiting to sort...<br>Operations: 0</div>
+            <div class="activeBar"></div>
+            <div class="author">Project created by Konrad Rumiński</div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
